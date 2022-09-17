@@ -22,7 +22,7 @@ const Post = (props) =>
            
             <div className="postTop">
                 <div className="postTopLeft">
-                    <img src={Users.filter((u) => u.id === props.post.userId)[0].  profilePicture} 
+                    <img src={Users.filter((u) => u.id === props.post.userId)[0].profilePicture} 
                     alt="" className="postProfileImg" />
                     <span className="postUsername"><strong>
                      {Users.filter((u) => u.id === props.post.userId)[0].username}  
